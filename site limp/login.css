@@ -1,0 +1,56 @@
+body{margin: 0px;
+    background-color: darkslategray;}
+
+
+label{display: block;
+color: ghostwhite;
+font-size: 2em;
+font-weight: 50;}
+
+
+#formulario{background-color: gray;
+    width:450px;
+    height: 300px;
+margin-top: 15%;
+margin-left: 700px;
+border-radius:10px ;}
+
+#formulario label{margin-left:30px ;
+margin-top: 30px;}
+
+#formulario input[type=text]{outline: none;
+margin-left: 30px;
+border: darkslategray 2px solid;
+border-radius: 30px;
+height: 2vh;
+background: transparent;
+color: ghostwhite;
+}
+
+#formulario input[type=password]{outline: none;
+    margin-left: 30px;
+    border: darkslategray 2px solid;
+    border-radius: 30px;
+    height: 2vh;
+    background: transparent;
+display: block;
+margin-bottom: 20px;}
+
+    #btn{height: 50px;
+    width: 80px;
+border-radius: 20px;
+font-size: 18px;
+margin-left: 30px;
+outline: none;
+background-color: darkslategray;
+color: ghostwhite;}
+
+h1{color: ghostwhite;
+    font-size: 3em;
+    margin-left: 50px;
+    letter-spacing: 3px;
+    font-style: italic;
+text-align: center;
+position: relative;
+top: 310px;
+left: -200px;}
