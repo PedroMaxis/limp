@@ -1,5 +1,6 @@
 body{margin: 0px;
-    background-color: darkslategray;}
+    background-color: darkslategray;
+font-family: 'georgia';}
 
 header{width: 100%;
 height: 15vh;
@@ -20,7 +21,7 @@ ul{list-style: none;
 display: inline-block;
 text-decoration: none;
 margin-left: 1000px;
-margin-right: 400px;}
+margin-right: 230px;}
 ul li {display: inline-block;
 text-decoration: none;
 margin-right:10px ;}
@@ -30,7 +31,9 @@ text-decoration: none;
 font-size: 20px;
 color: ghostwhite;}
 
-header svg{fill: ghostwhite;}
+
+header svg{fill: ghostwhite;
+    margin-left: 20px;}
 
 #grid{margin-top: 100px;
     display: grid;
@@ -67,7 +70,7 @@ font-size: 1.3rem;
 opacity: 0;
 transition: 0.4s;}
 
-#imagem>p{color:ghostwhite;
+#imagem>p{color:rgb(79, 183, 231);
     display: inline-block;
     position: relative;
     left: -53px;
@@ -85,7 +88,7 @@ transition: 0.7s;}
     opacity: 0;
     transition: 0.4s;}
 
-    #precofim{color:ghostwhite;
+    #precofim{color:rgb(79, 183, 231);
         display: inline-block;
         position: relative;
         left: 110px;
@@ -111,7 +114,7 @@ transition: 0.7s;}
         margin-top: 120px;
         letter-spacing: 2px;}
 
-        #precogato{color:ghostwhite;
+        #precogato{color: rgb(79, 183, 231);
             display: inline-block;
             position: relative;
             left: -40px;
@@ -167,7 +170,7 @@ transition: 0.7s;}
                         opacity: 0;
                         transition: 0.4s;}
 
-        #precoforever{color:ghostwhite;
+        #precoforever{color:rgb(79, 183, 231);
             display: inline-block;
             position: relative;
             left: -30px;
@@ -190,7 +193,7 @@ transition: 0.7s;}
             #imagem5:hover p{opacity: 1;}
         
 
-                #precosmoke{color:ghostwhite;
+                #precosmoke{color:rgb(79, 183, 231);
                     display: inline-block;
                     position: relative;
                     left: 55px;
@@ -232,7 +235,7 @@ transition: 0.7s;}
                             opacity: 0;
                             transition: 0.4s;}
                             
-                            #imagem6>p{color:ghostwhite;
+                            #imagem6>p{color:rgb(79, 183, 231);
                                 display: inline-block;
                                 position: relative;
                                 left: 40px;

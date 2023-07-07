@@ -1,5 +1,6 @@
 body{margin: 0px;
-    background-color: darkslategray;}
+    background-color: darkslategray;
+font-family: 'georgia';}
 
 header{width: 100%;
 height: 15vh;
@@ -20,7 +21,7 @@ ul{list-style: none;
 display: inline-block;
 text-decoration: none;
 margin-left: 1000px;
-margin-right: 400px;}
+margin-right: 230px;}
 ul li {display: inline-block;
 text-decoration: none;
 margin-right:10px ;}
@@ -30,14 +31,16 @@ text-decoration: none;
 font-size: 20px;
 color: ghostwhite;}
 
-header svg{fill: ghostwhite;}
+
+header svg{fill: ghostwhite;
+    margin-left: 20px;}
 
 h1{font-size: 3em;
 color: ghostwhite;
 text-align: center;
 margin-top: 60px;}
 
-#limp{font-size: 3em;
+#limp{font-size: 4em;
     color: ghostwhite;
     display: inline;
     letter-spacing: 3px;
@@ -53,3 +56,89 @@ margin-top: 100px;}
 #aboutbox a{letter-spacing: 3px;
     font-style: italic;
     font-size: 18px;}
+
+    #imagem img{width: 100%;
+    height: 500px;
+width: 600px;
+margin-top:100px ;}
+
+#grid{display: grid;
+grid-template-columns: 1fr 1fr;
+margin-bottom: 200px;}
+
+#formulario{width: 500px;
+margin-top: 14vh;
+margin-bottom: 15vh;
+color: ghostwhite;
+background-color: rgb(160, 156, 156);
+margin-left: 720px;
+border-radius: 40px;}
+
+#lblemail{font-size: 1.7em;
+display: block;
+margin-left: 120px;
+margin-top: 80px;}
+#lblsub{font-size: 1.7em;
+    display: block;
+    margin-left: 120px;
+    margin-top: 20px;}
+
+#email{height: 30px;
+width: 230px;
+border: 1px darkslategray solid;
+border-radius: 20px;
+background: transparent;
+margin-left: 120px;
+color: ghostwhite;
+    font-size: 18px;
+outline: none;}
+#Subject{height: 30px;
+    width: 230px;
+    border: 1px darkslategray solid;
+    border-radius: 20px;
+    background: transparent;
+    margin-left: 120px;
+    color: ghostwhite;
+        font-size: 13px;
+    outline: none;}
+
+textarea{height: 200px;
+    width: 280px;
+    border: 1px darkslategray solid;
+    border-radius: 20px;
+    background: transparent;
+    margin-left: 95px;
+    margin-bottom: 10px;
+    color: ghostwhite;
+    font-size: 18px;
+resize: vertical;
+outline: none;}
+#lblmessage{font-size: 2em;
+    display: block;
+    margin-left: 175px;
+    margin-top: 20px;}
+
+    input::placeholder{color: rgb(204, 204, 204);
+    font-size: 1.4em;}
+    textarea::placeholder{color: rgb(204, 204, 204);
+        font-size: 1.4em;}
+
+        h3{color: ghostwhite;
+            font-size: 4em;
+            margin-left: 50px;
+            letter-spacing: 3px;
+            font-style: italic;
+            display: inline-block;
+        position: relative;
+    left: 730px;
+bottom: 885px;}
+
+#btn{height: 50px;
+    width: 120px;
+border-radius: 20px;
+font-size: 18px;
+margin-left: 170px;
+outline: none;
+background-color: darkslategray;
+color: ghostwhite;
+margin-bottom: 60px;}

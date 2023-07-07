@@ -1,5 +1,6 @@
 body{margin: 0px;
-    background-color: darkslategray;}
+    background-color: darkslategray;
+font-family: 'georgia';}
 
 header{width: 100%;
 height: 15vh;
@@ -20,7 +21,7 @@ ul{list-style: none;
 display: inline-block;
 text-decoration: none;
 margin-left: 1000px;
-margin-right: 400px;}
+margin-right: 230px;}
 ul li {display: inline-block;
 text-decoration: none;
 margin-right:10px ;}
@@ -30,5 +31,6 @@ text-decoration: none;
 font-size: 20px;
 color: ghostwhite;}
 
-header svg{fill: ghostwhite;}
+header svg{fill: ghostwhite;
+margin-left: 20px;}
 
