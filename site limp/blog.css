@@ -34,3 +34,31 @@ color: ghostwhite;}
 header svg{fill: ghostwhite;
 margin-left: 20px;}
 
+#gridbox{display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+place-items: center;
+margin-top: 100px;
+margin-bottom: 20vh;
+gap: 2px;
+margin-left:200px ;
+margin-right: 200px;}
+
+#imagem{width:350px ;
+height: 230px;
+overflow: hidden;}
+#imagem img{width: 350px;
+  margin-top: -60px;  }
+
+  #box{width: 350px;
+color: ghostwhite;}
+
+#box a{text-decoration: none;
+color: gold;}
+
+#info{display: inline;}
+
+#imagem2{width:350px ;
+    height: 230px;
+    overflow: hidden;}
+    #imagem2 img{width: 350px;
+      margin-top: -200px;  }
