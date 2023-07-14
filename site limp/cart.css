@@ -1,0 +1,93 @@
+body{margin: 0px;
+    background-color: darkslategray;
+font-family: 'georgia';
+color: ghostwhite;}
+
+header{width: 100%;
+height: 15vh;
+text-decoration: none;
+    color: ghostwhite;
+background-color: rgb(68, 82, 82);}
+
+#titulo a{text-decoration: none;
+color: ghostwhite;
+font-size: 3em;
+margin-left: 50px;
+letter-spacing: 3px;
+font-style: italic;}
+#titulo{display: inline-block;
+color: ghostwhite;}
+
+ul{list-style: none;
+display: inline-block;
+text-decoration: none;
+margin-left: 1000px;
+margin-right: 230px;}
+ul li {display: inline-block;
+text-decoration: none;
+margin-right:10px ;
+transition: 0.5s;}
+
+ul li a{display: inline-block;
+text-decoration: none;
+font-size: 20px;
+color: ghostwhite;
+transition: 0.3s;}
+
+ul>li>a:hover{color: goldenrod;}
+
+header svg{fill: ghostwhite;
+    margin-left: 10px;}
+
+    #infobox{
+        color: ghostwhite;    
+        background-color: rgb(68, 82, 82);
+    width: 600px ;
+    height: 80vh;
+margin-top: 160px;
+margin-left: 500px;
+margin-bottom: 100px;
+border-radius: 15px;}
+
+#infobox>h2{color: whitesmoke;
+font-size: 2em;
+text-align: center;
+margin-top: 20px;}
+
+#item img{ margin-top: 50px;
+    margin-left: 30px;
+    width: 100px;
+height: 100%;}
+#textos{display: inline-block;
+font-size: 13px;
+width: 400px;
+margin-left: 142px;
+    margin-top: -131px;}
+#textos h2{display: inline-block;}
+#texto{display: inline-block;
+    font-size: 13px;
+    width: 400px;
+    margin-left: 142px;
+        margin-top: -131px;}
+    #texto h2{display: inline-block;}
+    span{color: goldenrod;}
+
+    #infocliente{background-color: rgb(68, 82, 82);
+    display: inline-block;
+padding: 40px;
+position: relative;
+left: 1200px;
+bottom: 854px;
+border-radius: 15px;}
+
+#infocliente>h2{color: whitesmoke;
+    font-size: 2em;
+    text-align: center;
+}
+
+#preco{font-weight: bolder;
+font-style: italic;}
+
+#infocliente>span{font-size: 18px;}
+
+#infobox span{font-size: 16px;}

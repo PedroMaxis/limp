@@ -29,7 +29,10 @@ margin-right:10px ;}
 ul li a{display: inline-block;
 text-decoration: none;
 font-size: 20px;
-color: ghostwhite;}
+color: ghostwhite;
+transition: 0.3s;}
+
+ul>li>a:hover{color: goldenrod;}
 
 header svg{fill: ghostwhite;
 margin-left: 20px;}
@@ -39,7 +42,7 @@ grid-template-columns: 1fr 1fr 1fr;
 place-items: center;
 margin-top: 100px;
 margin-bottom: 20vh;
-gap: 2px;
+gap: 10px;
 margin-left:200px ;
 margin-right: 200px;}
 
